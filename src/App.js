@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './component/Home';
 import Categories from './component/Categories';
@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
      <Main />
       <Routes>
-        <Route exact path='/home' element={< Home />} />
+        <Route exact path='/' element={< Home />} />
         <Route exact path='/categories' element={<Categories />} />
         <Route exact path='/destinations' element={<Destinations />} />
         <Route exact path='/blog' element={<Blog />} />

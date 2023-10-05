@@ -11,7 +11,7 @@ function Main() {
                 <img src='https://gotrip-next.vercel.app/img/general/logo-dark.svg' alt='img'></img></h1>
                 <ul className='text2'>
                 <li>
-                    <Link to='/home' className='text1'> Home </Link>
+                    <Link to='/' className='text1'> Home </Link>
                 </li>
                 <li>
                     <Link to='/categories' className='text1'> Categories </Link>
